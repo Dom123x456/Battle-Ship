@@ -16,5 +16,8 @@ letters_to_numbers = {
 def print_board(board):
     pass
 
-def get_ship_location():
+def create_battleships():
+    pass
+
+def get_battleship_location():
     pass
