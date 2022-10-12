@@ -15,3 +15,6 @@ letters_to_numbers = {
 
 def print_board(board):
     pass
+
+def get_ship_location():
+    pass
