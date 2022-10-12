@@ -58,5 +58,5 @@ def count_hit_battleships(board):
 
 create_battleships(HIDDEN_BOARD)
 turns = 10
-print(HIDDEN_BOARD)
+print_board(HIDDEN_BOARD)
 #while turns > 0:
