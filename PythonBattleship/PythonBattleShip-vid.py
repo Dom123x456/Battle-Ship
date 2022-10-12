@@ -38,7 +38,7 @@ def create_battleships(board):
             board[ship_row][ship_column] = "X"
 
 def get_battleship_location():
-    pass
+    row = input("Enter the row of the Battleship: ").upper()
 
 def count_hit_battleships():
     pass
