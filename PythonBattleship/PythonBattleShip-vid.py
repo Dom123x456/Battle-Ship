@@ -14,7 +14,8 @@ letters_to_numbers = {
 } 
 
 def print_board(board):
-    pass
+    print('A B C D E F G H')
+    print('\\\\\\\\\///////')
 
 def create_battleships():
     pass
