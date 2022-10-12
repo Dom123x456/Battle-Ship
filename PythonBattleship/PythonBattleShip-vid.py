@@ -48,7 +48,7 @@ def get_battleship_location():
         column = input("Enter the column of the Battleship: ").upper()
     return int(row) - 1, letters_to_numbers[column]
 
-def count_hit_battleships(GUESS_BOARD):
+def count_hit_battleships(board):
     count = 0
     for row in
 
