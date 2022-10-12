@@ -52,6 +52,9 @@ def count_hit_battleships(board):
     count = 0
     for row in board:
         for column in row:
+            if column == "X":
+                count += 1
+    return count
 
 create_battleships()
 turns = 10
