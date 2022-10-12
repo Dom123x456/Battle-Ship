@@ -25,7 +25,8 @@ def print_board(board):
 
 
 def create_battleships():
-    pass
+    for ship in range(5):
+        ship_row, ship_column = randint(0,7), randint(0,7)
 
 def get_battleship_location():
     pass
