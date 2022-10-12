@@ -21,3 +21,9 @@ def create_battleships():
 
 def get_battleship_location():
     pass
+
+def count_hit_battleships():
+    pass
+create_battleships()
+turns = 10
+#while turns > 0:
