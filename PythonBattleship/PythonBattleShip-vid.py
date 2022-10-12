@@ -50,7 +50,8 @@ def get_battleship_location():
 
 def count_hit_battleships(board):
     count = 0
-    for row in board
+    for row in board:
+        for column in row:
 
 create_battleships()
 turns = 10
