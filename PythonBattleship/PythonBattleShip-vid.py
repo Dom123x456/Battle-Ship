@@ -35,6 +35,7 @@ def create_battleships(board):
         ship_row, ship_column = randint(0,7), randint(0,7)
         while board[ship_row][ship_column] == "X":
             ship_row, ship_column = randint(0,7), randint(0,7)
+            board[ship_row][ship_column] = "X"
 
 def get_battleship_location():
     pass
