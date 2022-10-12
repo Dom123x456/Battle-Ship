@@ -16,6 +16,11 @@ letters_to_numbers = {
 def print_board(board):
     print('A B C D E F G H')
     print('\\\\\\\\\///////')
+    row_number = 1
+    for row in board:
+        print("%d|%s|" % (row_number, "|".join(row)))
+        row_number += 1
+
 
 def create_battleships():
     pass
