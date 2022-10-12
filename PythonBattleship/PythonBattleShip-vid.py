@@ -41,6 +41,8 @@ def get_battleship_location():
     row = input("Enter the row of the Battleship: ").upper()
     while row not in "12345678":
         print('Not valid choice, select a valid row.')
+        row = input("Enter row of the Battleship: ").upper()
+    column = input("Enter column of the Battleship: ").upper()
 
 def count_hit_battleships():
     pass
