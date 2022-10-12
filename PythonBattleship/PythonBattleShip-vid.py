@@ -49,7 +49,8 @@ def get_battleship_location():
     return int(row) - 1, letters_to_numbers[column]
 
 def count_hit_battleships():
-    pass
+    count = 0
+    for row in
 create_battleships()
 turns = 10
 #while turns > 0:
