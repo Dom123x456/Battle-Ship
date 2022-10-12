@@ -39,6 +39,8 @@ def create_battleships(board):
 
 def get_battleship_location():
     row = input("Enter the row of the Battleship: ").upper()
+    while row not in "12345678":
+        print('Not valid choice, select a valid row.')
 
 def count_hit_battleships():
     pass
