@@ -21,6 +21,7 @@ letters_to_numbers = {
     'H': 7
 } 
 
+
 def print_board(board):
     print('A B C D E F G H')
     print('\\\\\\\\\///////')
